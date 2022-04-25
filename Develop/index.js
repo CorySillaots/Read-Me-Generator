@@ -47,7 +47,7 @@ const questions = [
     type: 'list',
     name: 'license',
     message: "What type of license are you using?",  
-    choices: ["Apache 2.0", "Boost", "BSD", "Creative Commons", "Eclipse", "GNU", "The Organization for Ethical Source", "IBM", "ISC", "MIT", "Mozilla", "Open Data Commons", "Perl", "SIL", "Unlicense", "WTFPL", "Zlib"] 
+    choices: ["Apache", "Boost", "BSD", "Creative Commons", "Eclipse", "GNU", "The Organization for Ethical Source", "IBM", "ISC", "MIT", "Mozilla", "Open Data Commons", "Perl", "SIL", "Unlicense", "WTFPL", "Zlib"] 
   },
 ];
 
