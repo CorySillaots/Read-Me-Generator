@@ -58,9 +58,11 @@ const questions = [
 ];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {
-    fs.writeToFile(filename, data)
-}
+const fs = require('fs'); 
+  fs.writeFile('./Desktop/README.md', generateMarkdown.data, function(err, result){
+    if (err) console.log('error', err);
+  })
+
 
 // TODO: Create a function to initialize app
 function init() {
