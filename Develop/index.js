@@ -24,8 +24,14 @@ const questions = [
       type: 'input',
       name: 'url',
       message: 'Please enter the URL of your website.'
+  },    
+  //Installation in table of contents
+  {    
+      type: 'input',
+      name: 'installation',
+      message: 'Please describe how to install the file'
   },
- //contact information in table of contents
+  //contact information in table of contents
   {
     type: 'input',
     name: 'githubName',
