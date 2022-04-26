@@ -96,13 +96,13 @@ function generateMarkdown(data) {
   return `
     # ${data.projectTitle} 
     ## Table Of Contents
-    - [Description]
+    - [Description](#description)
     - [Installation]
     - [Contact Information]
     - [References]
     - [Licensing]
 
-    ## Description
+    ## Description <a name ='description'></a> 
       ${data.projectDescription}
       ${data.githubRepo}
       ${data.url}
