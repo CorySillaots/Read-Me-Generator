@@ -39,8 +39,8 @@ function renderLicenseBadge(license){
     default:
         return '';
             
+    }
 }
-
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
@@ -94,34 +94,39 @@ function renderLicenseSection(license) {}
 
 function generateMarkdown(data) {
   return `
-    # ${data.projectTitle} 
-    ## Table Of Contents
-    - [Description](#description)
-    - [Installation]
-    - [Contact Information]
-    - [References]
-    - [Licensing]
+# ${data.projectTitle} 
 
-    ## Description <a name ='description'></a> 
-      ${data.projectDescription}
-      ${data.githubRepo}
-      ${data.url}
+## Table Of Contents
+- [Description](#description)
+- [Installation](#installation)
+- [Contact Information](#contact-information)
+- [References](#references)
+- [Licensing](#licensing)
 
-    ## Installation
-      ${data.installation}
-    
-    ## Contact Information  
-      ${data.githubName}
-      ${data.emailAddress}
-    
-    ## References  
-      ${data.references}
 
-    ## Licensing
-      ${renderLicenseBadge(data.license)}
-      ${renderLicenseLink(data.license)}
+## Description 
+    ${data.projectDescription}
+    ${data.githubRepo}
+    ${data.url}
+
+
+## Installation
+    ${data.installation}
+
+
+## Contact Information  
+    ${data.githubName}
+    ${data.emailAddress}
+
+
+## References  
+    ${data.references}
+
+
+## Licensing
+    ${renderLicenseBadge(data.license)}
+    ${renderLicenseLink(data.license)}
 `;
 }
 
-module.exports = generateMarkdown;
-}
+module.exports = { generateMarkdown };
