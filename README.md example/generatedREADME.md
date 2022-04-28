@@ -10,23 +10,23 @@
 
 
 ## Description 
-    To prompt a user for information and generate a README.md file
-    example@github.com
+    To automatically generate a read me file from user prompts
     www.example.com
+    www.examle.com
 
 
 ## Installation
-    clone from repo
+    See README.md
 
 
 ## Contact Information  
-    Mr. GitHub
-    github@gmail.com
+    example@github.com
+    example@gmail.com
 
 
 ## References  
-    W3, 
+    reference #1, colloborator #1
 
 
 ## Licensing
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
