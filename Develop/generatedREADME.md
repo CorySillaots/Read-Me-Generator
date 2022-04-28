@@ -1,5 +1,5 @@
 
-# asdf 
+# Read Me Generator 
 
 ## Table Of Contents
 - [Description](#description)
@@ -10,24 +10,23 @@
 
 
 ## Description 
-    asdf
-    asdf
-    asdf
+    To prompt a user for information and generate a README.md file
+    example@github.com
+    www.example.com
 
 
 ## Installation
-    asdf
+    clone from repo
 
 
 ## Contact Information  
-    asdf
-    asdf
+    Mr. GitHub
+    github@gmail.com
 
 
 ## References  
-    asdf
+    W3, 
 
 
 ## Licensing
-    [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)]
-    (https://opensource.org/licenses/Apache-2.0)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
